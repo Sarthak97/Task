@@ -32,11 +32,20 @@ display: inline-block;
 
 .back
 {
-	padding: 15px 1% 15px 1%;
+	float: left;
+	padding: 15px 2% 15px 1%;
 }
+
+.right
+{
+	float: right;
+	padding: 15px 2% 15px 1%;
+}
+
 
 #cost
 {
+	float: center;
 	text-align: center;
 	padding: 5px 1% 5px 1%;
 	border-radius: 8px;
@@ -126,9 +135,9 @@ display: inline-block;
 
 	<nav class="topnav navbar-fixed-top">
 	  <a href="#"><span class="glyphicon glyphicon-arrow-left back"></span></a>
-      <input type="text" size="10" placeholder="Search">
+      <input type="text" placeholder="Search">
 	  <span id="cost">₹ 5938 </span> 
-	  <a href="#"><span class="glyphicon glyphicon-search back"></span></a>
+	  <a href="#"><span class="glyphicon glyphicon-search right"></span></a>
 	</nav>
 
   	<div class="row row1">
